@@ -38,49 +38,49 @@ For answering our questions, we conducted one-tailed ANOVA tests followed by Tuk
 #### Does discount amount have a statistically significant effect on the quantity of a product in an order? If so, at what level(s) of discount?
 
 H<sub>0</sub>: there is no significant difference in quantity ordered due to discount  
-H<sub>$\alpha$</sub>: there is a significant difference in order quantity due to discount
+H<sub>\alpha</sub>: there is a significant difference in order quantity due to discount
 
 #### At what level(s) of discount is there a statistically significant difference in quantity ordered?
 
 H<sub>0</sub> (for each level): there is no significant difference in quantity ordered due to that specific discount level  
-H<sub>$\alpha$</sub> (for each level): there is a significant difference in order quantity due to that specific discount level
+H<sub>\alpha</sub> (for each level): there is a significant difference in order quantity due to that specific discount level
 
 ### Question 2
 #### Is there a statistically significant difference in the level(s) of discount offered by UK employees and USA employees?
 
 H<sub>0</sub>: there is no significant difference in level(s) of discount offered by the two countries  
-H<sub>$\alpha$</sub>: there is a significant difference in level(s) of discount offered by the two countries
+H<sub>\alpha</sub>: there is a significant difference in level(s) of discount offered by the two countries
 
 #### Does the level(s) of discount offered by US employees have a statistically significant effect on the quantity ordered? If so, at what level(s) of discount?
 
 H<sub>0</sub> (for each level): there is no significant difference in quantity ordered due to that specific discount level  
-H<sub>$\alpha$</sub> (for each level): there is a significant difference in order quantity due to that specific discount level
+H<sub>\alpha</sub> (for each level): there is a significant difference in order quantity due to that specific discount level
 
 #### Does the level(s) of discount offered by UK employees have a statistically significant effect on the quantity ordered? If so, at what level(s) of discount?
 
 H<sub>0</sub> (for each level): there is no significant difference in quantity ordered due to that specific discount level  
-$H_\alpha$ (for each level): there is a significant difference in order quantity due to that specific discount level
+H<sub>\alpha</sub> (for each level): there is a significant difference in order quantity due to that specific discount level
 
 ### Question 3
 #### Does the age of the employee have a statistically significant effect on number of orders processed?
 
 H<sub>0</sub>: there is no significant difference in total sum of orders processed due employee age  
-H<sub>$\alpha$</sub>: there is a significant difference in total sum of orders processed due to employee age
+H<sub>\alpha</sub>: there is a significant difference in total sum of orders processed due to employee age
 
 #### Does having manager in your title have a statistically significant effect on number of orders processed?
 
 H<sub>0</sub>: there is no significant difference in total sum of orders processed due to the employee making order having a managerial position  
-H<sub>$\alpha$</sub>: there is a significant difference in total sum of orders processed due to the employee making order having a managerial position
+H<sub>\alpha</sub>: there is a significant difference in total sum of orders processed due to the employee making order having a managerial position
 
 #### Does the age of the employee have a statistically significant effect on the quantity of a product in an order?
 
 H<sub>0</sub>: there is no significant difference in quantity ordered due employee age  
-H<sub>$\alpha$</sub>: there is a significant difference in order quantity ordered due to employee age
+H<sub>\alpha</sub>: there is a significant difference in order quantity ordered due to employee age
 
 #### Does having manager in your title have a statistically significant effect on quantity ordered?
 
 H<sub>0</sub>: there is no significant difference in quantity ordered due to the employee making order having a managerial position  
-H<sub>$\alpha$</sub>: there is a significant difference in order quantity ordered due to the employee making order having a managerial position
+H<sub>\alpha</sub>: there is a significant difference in order quantity ordered due to the employee making order having a managerial position
 
 ### Question 4
 #### For each category type of product, does the season in which the order was placed have a statistically significant effect on the quantity of a product in an order?
