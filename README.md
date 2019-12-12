@@ -1,33 +1,36 @@
 
 # Module 3 -  Final Project Specifications
 
-## Introduction
+## Northwind Database
 
-In this lesson, we'll review all the guidelines and specifications for the final project for Module 3.
-
-## Objectives
-
-* Understand all required aspects of the Final Project for Module 3
-* Understand all required deliverables
-* Understand what constitutes a successful project
-
-### Final Project Summary
-
-Another module down--you're half way there!
-
-<img src='https://raw.githubusercontent.com/learn-co-curriculum/dsc-mod-3-project/master/halfway-there.gif'>
-
-For the culmination of Module 3, you just need to complete the final project!
-
-### The Project
-
-For this project, you'll be working with the Northwind database--a free, open-source dataset created by Microsoft containing data from a fictional company. You probably remember the Northwind database from our section on Advanced SQL. Here's the schema for the Northwind database:
+The Northwind database is a sample database used by Microsoft to demonstrate the features of some of its products, including SQL Server and Microsoft Access. The database contains the sales data for Northwind Traders, a fictitious specialty foods export import company.
 
 <img src='https://raw.githubusercontent.com/learn-co-curriculum/dsc-mod-3-project/master/Northwind_ERD_updated.png'>
 
-The goal of this project is to test your ability to gather information from a real-world database and use your knowledge of statistical analysis and hypothesis testing to generate analytical insights that can be of value to the company.
+## Goal
+In this statistical analysis, we perform hypothesis tests to answer the following questions for Northwind Traders:  
+##### Question 1
+**_Does discount amount have a statistically significant effect on the quantity of a product in an order? If so, at what level(s) of discount?  
+##### Question 2
+**_Is there a statistically significant difference in the level(s) of discount offered by UK employees and USA employees?_**
+**_Does the level(s) of discount offered by US employees have a statistically significant effect on the quantity ordered? If so, at what level(s) of discount?_**
+**_Does the level(s) of discount offered by UK employees have a statistically significant effect on the quantity ordered? If so, at what level(s) of discount?_**
+##### Question 3
+**_Does the age of the employee have a statistically significant effect on number of orders processed?_**
+**_Does having manager in your title have a statistically significant effect on number of orders processed?_**
+**_Does the age of the employee have a statistically significant effect on the quantity of a product in an order?_**
+**_Does having manager in your title have a statistically significant effect on quantity ordered?_**
+##### Question 4
+**_For each category type of product, does the season in which the order was placed have a statistically significant effect on the quantity of a product in an order?_**
+##### Question 5
+**_Does shipping company used have a statistically significant effect on the freight cost of shipping?_**
+##### Question 6
+**_Does category of product have a statistically signficiant effect on processing time? If so, which ones?_**
+**_Does having a discount on the order have a statistically significant effect on processing time?_**
+**_Does size of order have a statistically signficant effect on processing time?_**
+**_Does shipping company have a statistically significant effect on processing time?_**
 
-## The Deliverables
+## Understanding Database
 
 The goal of your project is to query the database to get the data needed to perform a statistical analysis.  In this statistical analysis, you'll need to perform a hypothesis test (or perhaps several) to answer the following question:
 
@@ -85,8 +88,4 @@ Your presentation should:
     <br>  
 * Take no more than 5 minutes to present  
 <br>  
-* Avoid technical jargon and explain results in a clear, actionable way for non-technical audiences.  
-
-## Grading Rubric 
-
-Online students can find a PDF of the grading rubric for this project [here](https://github.com/learn-co-curriculum/dsc-mod-3-project/blob/master/module3_project_rubric.pdf). _Note: On-campus students may have different requirements, please speak with your instructor._
+* Avoid technical jargon and explain results in a clear, actionable way for non-technical audiences.
