@@ -122,31 +122,31 @@ Discounts, Employee efficiency, Types of Products and quantity purchased, and Sh
 
 ## Overview of Data
 
-![](images/disavgq.png)
-![](images/country.png)
-![](images/discountry.png)
-![](images/birthdate.png)
-![](images/title.png)
-![](images/category.png)
-![](images/shipping.png)
+![](images/disavgq.png | width=100)
+![](images/country.png | width=100)
+![](images/discountry.png | width=100)
+![](images/birthdate.png | width=100)
+![](images/title.png | width=100)
+![](images/category.png | width=100)
+![](images/shipping.png | width=100)
 
 ## Results
-##### Question 1
+#### Question 1
 Does discount amount have a statistically significant effect on the quantity of a product in an order? If so, at what level(s) of discount? **Reject Null Hypothesis and levels 0.01-0.06 and 0.15 are the best.**  
-##### Question 2
+#### Question 2
 Is there a statistically significant difference in the level(s) of discount offered by UK employees and USA employees?  **Reject Null Hypothesis**  
 Does the level(s) of discount offered by US employees have a statistically significant effect on the quantity ordered? If so, at what level(s) of discount?  **Reject Null Hypothesis and levels 0.01-0.06 and 0.15 are the best.**  
 Does the level(s) of discount offered by UK employees have a statistically significant effect on the quantity ordered? If so, at what level(s) of discount? **Reject Null Hypothesis and level 0.25 is the best.**    
-##### Question 3
+#### Question 3
 Does the age of the employee have a statistically significant effect on number of orders processed? **Cannot reject Null Hypothesis.**  
 Does having a managerial position in Northwind have a statistically significant effect on number of orders recieved? **Cannot reject Null Hypothesis.**  
 Does the age of the employee have a statistically significant effect on the quantity of a product in an order? **Cannot reject Null Hypothesis.**  
 Does having manager in your title have a statistically significant effect on quantity ordered by the customer? **Reject Null Hypothesis and 4.83 greater difference in mean when customers' employees making the order have a managerial position.**  
-##### Question 4
+#### Question 4
 For each category type of product, does the season in which the order was placed have a statistically significant effect on the quantity of a product in an order? **Reject Null Hypothesis for Dairy Products in Winter: +4.99 units, Seafood in Spring: -4.95 units, Condiments in Winter: +6.97 units, and Condiments in Spring: -5.83 units.**  
-##### Question 5
+#### Question 5
 Does shipping company used have a statistically significant effect on the freight cost of shipping? **Cannot reject Null Hypothesis.**   
-##### Question 6
+#### Question 6
 Does category of product have a statistically signficiant effect on processing time? If so, which ones? **Cannot reject Null Hypothesis.**  
 Does having a discount on the order have a statistically significant effect on processing time? **Cannot reject Null Hypothesis.**   
 Does size of order have a statistically signficant effect on processing time? **Cannot reject Null Hypothesis.**  
