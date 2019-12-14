@@ -17,9 +17,9 @@ In this statistical analysis, we perform hypothesis tests to answer the followin
 **_Does the level(s) of discount offered by UK employees have a statistically significant effect on the quantity ordered? If so, at what level(s) of discount?_**
 #### Question 3
 **_Does the age of the employee have a statistically significant effect on number of orders processed?_**
-**_Does having manager in your title have a statistically significant effect on number of orders processed?_**
+**_Does having a managerial position in Northwind have a statistically significant effect on number of orders processed?_**
 **_Does the age of the employee have a statistically significant effect on the quantity of a product in an order?_**
-**_Does having manager in your title have a statistically significant effect on quantity ordered?_**
+**_Does having manager in your title have a statistically significant effect on quantity ordered by a customer?_**
 #### Question 4
 **_For each category type of product, does the season in which the order was placed have a statistically significant effect on the quantity of a product in an order?_**
 #### Question 5
@@ -67,17 +67,17 @@ H<sub>_&alpha;_</sub> (for each level): there is a significant difference in ord
 H<sub>0</sub>: there is no significant difference in total sum of orders processed due employee age  (the means are equal)  
 H<sub>_&alpha;_</sub>: there is a significant difference in total sum of orders processed due to employee age (the means are not equal)
 
-#### Does having manager in your title have a statistically significant effect on number of orders processed?
+#### Does having a managerial position in Northwind have a statistically significant effect on number of orders processed?
 
-H<sub>0</sub>: there is no significant difference in total sum of orders processed due to the employee making order having a managerial position  (the means are equal)  
-H<sub>_&alpha;_</sub>: there is a significant difference in total sum of orders processed due to the employee making order having a managerial position (the means are not equal)
+H<sub>0</sub>: there is no significant difference in total sum of orders processed due to the employee receiving order having a managerial position  (the means are equal)  
+H<sub>_&alpha;_</sub>: there is a significant difference in total sum of orders processed due to the employee receiving order having a managerial position (the means are not equal)
 
 #### Does the age of the employee have a statistically significant effect on the quantity of a product in an order?
 
 H<sub>0</sub>: there is no significant difference in quantity ordered due employee age  (the means are equal)  
 H<sub>_&alpha;_</sub>: there is a significant difference in order quantity ordered due to employee age (the means are not equal)
 
-#### Does having manager in your title have a statistically significant effect on quantity ordered?
+#### Does having manager in your title have a statistically significant effect on quantity ordered by a customer?
 
 H<sub>0</sub>: there is no significant difference in quantity ordered due to the employee making order having a managerial position  (the means are equal)  
 H<sub>_&alpha;_</sub>: there is a significant difference in order quantity ordered due to the employee making order having a managerial position (the means are not equal)
@@ -115,56 +115,54 @@ H<sub>_&alpha;_</sub>: there is a significant difference in processing time due 
 H<sub>0</sub>: there is no significant difference in processing time due to shipper  (the means are equal)  
 H<sub>_&alpha;_</sub>: there is a significant difference in processing time due to shipper (the means are not equal)
 
-## Understanding Database
+## Breakdown of Strategy
 
-For this hypothesis, be sure to specify both the **_null hypothesis_** and the **_alternative hypothesis_** for your question.  You should also specify if this is one-tail or a two-tail test.
+Explore factors we may control that could potentially affect revenue and cost.  
+Discounts, Employee efficiency, Types of Products and quantity purchased, and Shipping efficiency.
 
-For online students, there will be four deliverables for this project:
+## Overview of Data
 
-1. A **_Jupyter Notebook_** containing any code you've written for this project. This work will need to be pushed to your GitHub repository in order to submit your project.
-2. An organized **README.md** file in the GitHub repository that describes the contents of the repository. This file should be the source of information for navigating through the repository.
-3. A **_[Blog Post](https://github.com/learn-co-curriculum/dsc-welcome-blogging)_**.
-4. An **_"Executive Summary" PowerPoint Presentation_** that explains the hypothesis tests you ran, your findings, and their relevance to company stakeholders.  
+![](images/disavgq.png)
+![](images/country.png)
+![](images/discountry.png)
+![](images/birthdate.png)
+![](images/title.png)
+![](images/category.png)
+![](images/shipping.png)
 
-Note: On-campus students may have different delivarables, please speak with your instructor. 
+## Results
+##### Question 1
+Does discount amount have a statistically significant effect on the quantity of a product in an order? If so, at what level(s) of discount? **Reject Null Hypothesis and levels 0.01-0.06 and 0.15 are the best.**  
+##### Question 2
+Is there a statistically significant difference in the level(s) of discount offered by UK employees and USA employees?  **Reject Null Hypothesis**  
+Does the level(s) of discount offered by US employees have a statistically significant effect on the quantity ordered? If so, at what level(s) of discount?  **Reject Null Hypothesis and levels 0.01-0.06 and 0.15 are the best.**  
+Does the level(s) of discount offered by UK employees have a statistically significant effect on the quantity ordered? If so, at what level(s) of discount? **Reject Null Hypothesis and level 0.25 is the best.**    
+##### Question 3
+Does the age of the employee have a statistically significant effect on number of orders processed? **Cannot reject Null Hypothesis.**  
+Does having a managerial position in Northwind have a statistically significant effect on number of orders recieved? **Cannot reject Null Hypothesis.**  
+Does the age of the employee have a statistically significant effect on the quantity of a product in an order? **Cannot reject Null Hypothesis.**  
+Does having manager in your title have a statistically significant effect on quantity ordered by the customer? **Reject Null Hypothesis and 4.83 greater difference in mean when customers' employees making the order have a managerial position.**  
+##### Question 4
+For each category type of product, does the season in which the order was placed have a statistically significant effect on the quantity of a product in an order? **Reject Null Hypothesis for Dairy Products in Winter: +4.99 units, Seafood in Spring: -4.95 units, Condiments in Winter: +6.97 units, and Condiments in Spring: -5.83 units.**  
+##### Question 5
+Does shipping company used have a statistically significant effect on the freight cost of shipping? **Cannot reject Null Hypothesis.**   
+##### Question 6
+Does category of product have a statistically signficiant effect on processing time? If so, which ones? **Cannot reject Null Hypothesis.**  
+Does having a discount on the order have a statistically significant effect on processing time? **Cannot reject Null Hypothesis.**   
+Does size of order have a statistically signficant effect on processing time? **Cannot reject Null Hypothesis.**  
+Does shipping company have a statistically significant effect on processing time? **Reject Null Hypothesis for difference between Shipping Company 2 (United Package) and 3 (Federal Shipping) with a mean difference of -1.76 days in favor of United Package. United Package has a greater average freight cost however.**
 
-### Jupyter Notebook Must-Haves
+## Suggestions
 
-For this project, your Jupyter Notebook should meet the following specifications:
+- As a company, I would suggest not offer discount levels above 15%.  
+- US employees should not offer discount levels above 15% and UK employees should offer only 25%. However, I would suggest UK employees testing if lower discount levels from 1-6% are better for them since they do not offer many low level discounts.  
+- Try to speak to manager's when pushign for orders from your customers as they tend to have more buying power.  
+- Try to reflect production on when the products we found are affected by seasons are more or less in demand that time of the year. It will open up time for other tasks, otehr production elsewhere.
+- Using Federal Shipping will lower process time (days between order date and shipping date).
 
-**_Organization/Code Cleanliness_**
+## Further Steps
 
-* The notebook should be well organized, easy to follow, and code is commented where appropriate.  
-<br>  
-    * Level Up: The notebook contains well-formatted, professional looking markdown cells explaining any substantial code. All functions have docstrings that act as professional-quality documentation.  
-<br>      
-* The notebook is written to technical audiences with a way to both understand your approach and reproduce your results. The target audience for this deliverable is other data scientists looking to validate your findings.  
-<br>    
-* Any SQL code written to source data should also be included.  
+- Further investigate if lowering discount level below suggested 15% is better  
+- Find out optimal levels of discount for each product for their seasonal demand (if that exists)  
+- Explore where to lower costs whether in employee demmographic or shipping
 
-**_Findings_**
-
-* Your notebook should clearly show how you arrived at your results for each hypothesis test, including how you calculated your p-values.   
-<br>
-* You should also include any other statistics that you find relevant to your analysis, such as effect size.
-
-### Blog Post Must-Haves
-
-Refer back to the [Blogging Guidelines](https://github.com/learn-co-curriculum/dsc-welcome-blogging) for the technical requirements and blog ideas.
-
-
-### Executive Summary Must-Haves
-
-Your presentation should:
-
-* Contain between 5-10 professional quality slides detailing:
-<br>  
-    * A high-level overview of your methodology  
-    <br>  
-    * The results of your hypothesis tests  
-    <br>  
-    * Any real-world recommendations you would like to make based on your findings (ask yourself--why should the executive team care about what you found? How can your findings help the company?)  
-    <br>  
-* Take no more than 5 minutes to present  
-<br>  
-* Avoid technical jargon and explain results in a clear, actionable way for non-technical audiences.
