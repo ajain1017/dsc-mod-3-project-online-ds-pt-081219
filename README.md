@@ -122,13 +122,13 @@ Discounts, Employee efficiency, Types of Products and quantity purchased, and Sh
 
 ## Overview of Data
 
-![](images/disavgq.png | width=100)
-![](images/country.png | width=100)
-![](images/discountry.png | width=100)
-![](images/birthdate.png | width=100)
-![](images/title.png | width=100)
-![](images/category.png | width=100)
-![](images/shipping.png | width=100)
+<img src="images/disavgq.png" width="100">
+<img src="images/country.png" width="100">
+<img src="images/discountry.png" width="100">
+<img src="images/birthdate.png" width="100">
+<img src="images/title.png" width="100">
+<img src="images/category.png" width="100">
+<img src="images/shipping.png" width="100">
 
 ## Results
 #### Question 1
