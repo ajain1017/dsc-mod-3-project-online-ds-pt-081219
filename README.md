@@ -154,10 +154,10 @@ Does shipping company have a statistically significant effect on processing time
 
 ## Suggestions
 
-- As a company, I would suggest not offer discount levels above 15%.  
+- As a company, I would suggest not offering discount levels above 15%.  
 - US employees should not offer discount levels above 15% and UK employees should offer only 25%. However, I would suggest UK employees testing if lower discount levels from 1-6% are better for them since they do not offer many low level discounts.  
-- Try to speak to manager's when pushign for orders from your customers as they tend to have more buying power.  
-- Try to reflect production on when the products we found are affected by seasons are more or less in demand that time of the year. It will open up time for other tasks, otehr production elsewhere.
+- Try to speak to managers when pushing for orders from your customers as they tend to have more buying power.  
+- Try to reflect production on when the products affected by seasons discussed earlier are more or less in demand that time of the year. It will open up time for other tasks, and other production elsewhere.
 - Using Federal Shipping will lower process time (days between order date and shipping date).
 
 ## Further Steps
