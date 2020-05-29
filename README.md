@@ -34,7 +34,7 @@ In this statistical analysis, we perform hypothesis tests to answer the followin
 
 ## Methodology
 
-For answering our questions, we conducted ANOVA tests followed by Tukey HSD Post-HOC tests to find the where the difference in mean is observed if there is one.
+For answering our questions, we conducted ANOVA tests followed by Tukey HSD Post-HOC tests to find where the difference in mean lies if one exists.
 
 ### Question 1
 #### Does discount amount have a statistically significant effect on the quantity of a product in an order? If so, at what level(s) of discount?
